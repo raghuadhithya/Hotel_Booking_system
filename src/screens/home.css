@@ -1,0 +1,165 @@
+body
+{
+    background-color:#ecf0f1;
+    font-family: "Times New Roman", Times, serif;
+}
+.facil
+{
+    background-color:#dcdde1;
+}
+.facilities
+{  
+    font-family: "Times New Roman", Times, serif;
+    width: 80% ;
+    margin: auto ;
+    text-align: center ;
+    padding-top: 100px ;
+}
+.facilities h1
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px ;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.faci-col
+{
+    flex-basis: 33% ;
+    border-radius: 10px ;
+    margin-bottom: 5% ;
+    text-align: left ;
+}
+
+.faci-col img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px ;
+}
+
+.faci-col p
+{
+    padding: 0 ;
+}
+
+.faci-col h3
+{
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 16px ;
+    margin-bottom: 15px ;
+    text-align: left ;
+}
+
+.testimonials
+{
+    width: 80% ;
+    margin: auto ;
+    padding-top: 100px ;
+    text-align: center ;
+}
+
+.test-col
+{
+    flex-basis: 44% ;
+    border-radius: 10px ;
+    margin-bottom: 5% ;
+    text-align: left ;
+    background: #fff3f3 ;
+    padding:25px ;
+    cursor:pointer ;
+    display: flex ;
+}
+
+.test-col img
+{
+    height: 40px ;
+    margin-left: 5px ;
+    margin-right: 30px ;
+    border-radius: 50% ;
+}
+
+.test-col p
+{
+    padding: 0 ;
+}
+
+.test-col h3
+{
+    margin-top: 15px ;
+    text-align: left ;
+}
+
+.test-col .fa
+{
+    color: #f44336 ;
+}
+.slide
+{
+   height: 400px;
+   margin-top: 0px;
+   overflow:auto;
+}
+.slide img
+{
+    height: 400px;
+    width: 50px;
+}
+.header1{
+    
+    margin-top: 0px;
+    width: 100%;
+    min-height: 40vh;
+    background-color:#dcdde1;
+    background-position: center ;
+    background-size: cover ;
+    position: relative ;
+}
+.text-box1{
+    width: 90% ;
+    color: white ;
+    position:absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%,-50%) ;
+    text-align: center ;
+}
+.text-box1 h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px ;
+    color: black;
+}
+.text-box1 p{
+    font-family: "Times New Roman", Times, serif;
+    margin: 0px 0 20px;
+    font-size: 25px ;
+    color:red ;
+}
+.hero-btn{
+    margin-top: 0px;
+    display: inline-block ;
+    text-decoration: none ;
+    color:black ;
+    border:2px solid black ;
+    padding: 12px 34px ;
+    font-size: 15px ;
+    background: transparent ;
+    position: relative ;
+    cursor: pointer ;
+}
+.hero-btn:hover
+{
+    border: 2px solid black ;
+    background:skyblue ;
+    transition: 1s ;
+}
+.front
+{
+    margin: 0px;
+    background-color:#dcdde1;
+}
+.ff
+{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif ;
+}

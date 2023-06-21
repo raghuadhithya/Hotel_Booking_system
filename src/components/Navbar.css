@@ -1,0 +1,88 @@
+
+.navmain1{
+
+  background: #2192ff;
+  display: flex;
+}
+nav{
+  background: #fff;
+  padding: 5px;
+  width: 100%;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+li
+{
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  font-size: 25px;
+  padding: 0 15px;
+  cursor: pointer;
+  position: relative;
+ 
+}
+nav .main1 li a{
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 25px;
+  padding: 0 15px;
+  cursor: pointer;
+  position: relative;
+  
+}
+nav .main1 li a:after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: red;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 1.5s;
+}
+nav .main1 li a:hover::after{
+  width:100%;
+}
+.dropbtn
+{
+  background-color: aqua;
+  padding: 13px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left:200px;
+  
+}
+.dropdown-con
+{
+  display: none;
+  position: absolute;
+  font-size: 15px;
+  min-width: 200px;
+  background-color: white;
+  margin-top: -70px;
+  border: none;
+  border-radius: 5px;
+}
+.dropdown-con a
+{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}   
+.dropdown-con a:hover
+{
+  background-color:aqua;
+}
+.dropdown:hover .dropdown-con{
+  display: block;
+}
+
